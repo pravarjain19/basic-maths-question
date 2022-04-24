@@ -9,7 +9,7 @@ class binaryTodecimal{
         while( n !=0){
             int bit = n%10;
             if(bit == 1){
-            ans =    Math.pow(a, b) + ans;
+            // ans =    Math.pow(a, b) + ans;
             i++;
             }
             n = n/10;
